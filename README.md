@@ -1,4 +1,6 @@
-# SE-Assignment-6
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WfNmjXUk)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15278823&assignment_repo_type=AssignmentRepo)
+#SE-Assignment-6
  Assignment: Introduction to Python
 Instructions:
 Answer the following questions based on your understanding of Python programming. Provide detailed explanations and examples where appropriate.
@@ -34,7 +36,7 @@ macOS/Linux: source myenv/bin/activate
 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
 
-# Simple Python program to print "Hello, World!"
+#Simple Python program to print "Hello, World!"
 print("Hello, World!")
 Syntax elements: print() is a built-in function that outputs text to the console. "Hello, World!" is a string literal enclosed in double quotes
 
@@ -50,16 +52,16 @@ list: ordered collection of items ([1, 2, 3])
 tuple: ordered, immutable collection ((1, 2, 3))
 dict: unordered key-value pairs ({'key': 'value'})
 
-# Variables and data types
+#Variables and data types
 x = 5           # int
 y = 3.14        # float
 name = "Alice"  # str
 is_valid = True # bool
-# List example
+#List example
 numbers = [1, 2, 3]
-# Dictionary example
+#Dictionary example
 person = {'name': 'John', 'age': 30}
-# Accessing elements
+#Accessing elements
 print(numbers[0])     # Output: 1
 print(person['name']) # Output: John
 
@@ -69,7 +71,7 @@ print(person['name']) # Output: John
 
 Conditional Statements (if-else):
 code
-# Example of if-else statement
+#Example of if-else statement
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -78,7 +80,7 @@ else:
 
 Loops (for loop):
  code
-# Example of for loop
+#Example of for loop
 numbers = [1, 2, 3, 4, 5]
 for num in numbers:
     print(num)
@@ -88,10 +90,10 @@ for num in numbers:
 
    Functions in Python:
 Functions are blocks of code that executes a task
-# Function to add two numbers
+#Function to add two numbers
 def add_numbers(a, b):
     return a + b
-# Calling the function
+#Calling the function
 result = add_numbers(9, 8)
 print("Sum:", result)  # Output: Sum: 17
 
@@ -127,17 +129,17 @@ Modules are Python files containing definitions and statements. Packages are dir
 Example using math module:
 code
 import math
-# Using math module
+#Using math module
 print(math.sqrt(16))    # Output: 4.0 (square root)  
 
 10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
 
-# Reading from a file
+#Reading from a file
 with open('example.txt', 'r') as f:
     content = f.read()
     print(content)
-# Writing to a file
+#Writing to a file
 data = ["Apple", "Banana", "Orange"]
 with open('output.txt', 'w') as f:
     for item in data:
